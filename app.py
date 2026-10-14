@@ -83,3 +83,9 @@ st.write("---")
 st.subheader("📈 Biểu đồ điểm tổng kết của 10 sinh viên")
 chart_data = df.set_index("Họ và tên")[["Tong_ket"]]
 st.bar_chart(chart_data)
+st.write("---")
+st.markdown(
+    "<p style='text-align: center; color: gray; font-size: 12px;'>Thực hiện"
+    " bởi: Cao Huỳnh Trực - MSSV: 058208004351</p>",
+    unsafe_allow_html=True,
+)
